@@ -2,7 +2,7 @@
 version: "2.1"
 services:
   jellyfin:
-    image: lscr.io/linuxserver/jellyfin:{JFIN_VERS}
+    image: lscr.io/linuxserver/jellyfin:${JFIN_VERS}
     container_name: jellyfin
     hostname: swag
     environment:
